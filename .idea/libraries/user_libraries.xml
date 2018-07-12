@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="user_libraries">
+    <CLASSES>
+      <root url="jar://G:/Java jar/lombok.jar!/" />
+      <root url="jar://G:/Java jar/apache-commons/commons-beanutils-1.9.3/commons-beanutils-1.9.3.jar!/" />
+      <root url="jar://G:/Java jar/apache-commons/commons-logging-1.2/commons-logging-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
