@@ -1,0 +1,8 @@
+<!-- 首先声明根元素，并说明根元素中有多个 student 元素 -->
+<!ELEMENT students (student+)>
+<!-- 约束根元素中有哪些子元素（注意：子元素是有顺序的，就是下面括号中从左到右的顺序） -->
+<!ELEMENT student (name, age, sex)>
+<!-- PCDATA 是会被解析器解析的文本 -->
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
