@@ -1,0 +1,30 @@
+<?com.cyx.java_enhance.xml version="1.0" encoding="UTF-8"?>
+<!--
+    文档声明，必须放在 XML 文档的第一行。
+    属性：
+        version：XML 的版本号，从发布到现在一直都是 1.0
+        encoding：XML 文档所使用的字符编码，默认为 UTF-8（保存在磁盘上的文件编码和声明的编码要一致）
+        standalone：XML 文档是否独立，即是否依赖其他文档，默认为 yes（yes 则意味着独立，不依赖其他文档，反则就是 no）
+--><!-- XML 文档中，标签也被称为元素 --><students>
+    <student id="20180720002481">
+        <name>哇哈哈</name>
+        <age>20</age>
+    </student>
+    <student id="20180720000547">
+        <name>李子</name>
+        <age>19</age>
+    </student>
+    <student id="20180720000501">
+        <name>拐子</name>
+        <age>23</age>
+    </student>
+
+    <!--
+        XML 文档不允许标签交叉嵌套，下面就是一个不正确的例子：
+            <student>
+                <name>王五</name>
+                <age>20
+                </student>
+            </age>
+    -->
+</students>
