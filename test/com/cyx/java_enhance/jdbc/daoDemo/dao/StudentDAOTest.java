@@ -1,6 +1,5 @@
-package com.cyx.java_enhance.jdbc.daoDemo.test;
+package com.cyx.java_enhance.jdbc.daoDemo.dao;
 
-import com.cyx.java_enhance.jdbc.daoDemo.dao.IStudentDAO;
 import com.cyx.java_enhance.jdbc.daoDemo.dao.impl.StudentDAOImpl;
 import com.cyx.java_enhance.jdbc.daoDemo.domain.Student;
 import org.junit.jupiter.api.DisplayName;
