@@ -4,7 +4,7 @@ import com.cyx.java_enhance.jdbc.daoDemo.domain.Teacher;
 
 import java.util.List;
 
-public interface ITeacherDao {
+public interface ITeacherDAO {
 
     /**
      * 保存老师信息

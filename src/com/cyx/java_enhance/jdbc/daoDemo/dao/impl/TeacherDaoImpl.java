@@ -1,6 +1,6 @@
 package com.cyx.java_enhance.jdbc.daoDemo.dao.impl;
 
-import com.cyx.java_enhance.jdbc.daoDemo.dao.ITeacherDao;
+import com.cyx.java_enhance.jdbc.daoDemo.dao.ITeacherDAO;
 import com.cyx.java_enhance.jdbc.daoDemo.domain.Teacher;
 import com.cyx.java_enhance.jdbc.daoDemo.util.JDBCUtil;
 
@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TeacherDaoImpl implements ITeacherDao {
+public class TeacherDaoImpl implements ITeacherDAO {
 
     @Override
     public void save(Teacher teacher) {

@@ -9,7 +9,7 @@ import java.util.List;
 
 class TeacherDAOTest {
 
-    private ITeacherDao teacherDao = new TeacherDaoImpl();
+    private ITeacherDAO teacherDao = new TeacherDaoImpl();
 
     @Test
     @DisplayName("保存老师信息")
