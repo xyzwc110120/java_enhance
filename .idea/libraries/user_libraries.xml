@@ -11,8 +11,12 @@
       <root url="jar://G:/Java jar/junit-platform-commons-1.3.0.jar!/" />
       <root url="jar://G:/Java jar/opentest4j-1.1.1.jar!/" />
       <root url="jar://G:/Java jar/apiguardian-api-1.0.0.jar!/" />
+      <root url="jar://G:/Java jar/apache-commons/commons-pool2-2.6.0/commons-pool2-2.6.0.jar!/" />
+      <root url="jar://G:/Java jar/apache-commons/commons-dbcp2-2.5.0/commons-dbcp2-2.5.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://G:/Java jar/apache-commons/commons-dbcp2-2.5.0/commons-dbcp2-2.5.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
