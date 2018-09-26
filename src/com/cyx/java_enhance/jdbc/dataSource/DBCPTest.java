@@ -1,4 +1,4 @@
-package com.cyx.java_enhance.jdbc.dbcp;
+package com.cyx.java_enhance.jdbc.dataSource;
 
 import com.cyx.java_enhance.jdbc.daoDemo.util.JDBCUtil;
 import org.apache.commons.dbcp2.BasicDataSource;

@@ -1,4 +1,4 @@
-package com.cyx.java_enhance.jdbc.dbcp;
+package com.cyx.java_enhance.jdbc.dataSource;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.commons.dbcp2.BasicDataSourceFactory;

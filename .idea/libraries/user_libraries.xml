@@ -13,6 +13,7 @@
       <root url="jar://G:/Java jar/apiguardian-api-1.0.0.jar!/" />
       <root url="jar://G:/Java jar/apache-commons/commons-pool2-2.6.0/commons-pool2-2.6.0.jar!/" />
       <root url="jar://G:/Java jar/apache-commons/commons-dbcp2-2.5.0/commons-dbcp2-2.5.0.jar!/" />
+      <root url="jar://G:/Java jar/ALi/druid-1.1.11.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
