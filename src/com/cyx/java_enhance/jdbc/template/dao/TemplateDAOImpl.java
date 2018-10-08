@@ -1,7 +1,8 @@
-package com.cyx.java_enhance.jdbc.template.dao.impl;
+package com.cyx.java_enhance.jdbc.template.dao;
 
 import com.cyx.java_enhance.jdbc.daoDemo.domain.Student;
-import com.cyx.java_enhance.jdbc.template.dao.ITemplateDAO;
+import com.cyx.java_enhance.jdbc.template.handler.impl.BeanHandler;
+import com.cyx.java_enhance.jdbc.template.handler.impl.BeanListHandler;
 import com.cyx.java_enhance.jdbc.template.util.JDBCTemplate;
 
 import java.util.List;
@@ -27,12 +28,19 @@ public class TemplateDAOImpl implements ITemplateDAO {
 
     @Override
     public Student get(Long id) {
-        return null;
+        // List<Student> list = JDBCTemplate.query("SELECT s.id, s.`name`, s.age FROM student s WHERE s.id = ?",
+        //         new StudentResultSetHandlerImpl(), id);
+        // return list.size() == 1 ? list.get(0) : null;
+
+        return JDBCTemplate.query("SELECT s.id, s.`name`, s.age FROM student s WHERE s.id = ?",
+                new BeanHandler<>(Student.class), id);
     }
 
     @Override
     public List<Student> getAll() {
-        return null;
+        // return JDBCTemplate.query("SELECT s.id, s.`name`, s.age FROM student s", new StudentResultSetHandlerImpl());
+
+        return JDBCTemplate.query("SELECT s.id, s.`name`, s.age FROM student s", new BeanListHandler<>(Student.class));
     }
 
 }
