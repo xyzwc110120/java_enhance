@@ -78,7 +78,7 @@ public class MemberDAOImpl implements IMemberDAO {
             connection.setAutoCommit(false);
 
             // 检查转账用户余额是否足够
-            String sql = "SELECT * FROM member m WHERE m.balance >= ? AND m.id = ?";
+            String sql = "SELECT * FROM member m WHERE m.balance >=  ? AND m.id = ?";
             statement = connection.prepareStatement(sql);
             statement.setInt(1, money);
             statement.setLong(2, memberId);

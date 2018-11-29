@@ -49,7 +49,6 @@ public class BeanHandler<T> implements IResultSetHandler<T> {
                 propertyDescriptor.getWriteMethod().invoke(t, set.getObject(propertyDescriptor.getName()));
             }
         }
-
         return t;
     }
 }
